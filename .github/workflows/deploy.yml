@@ -30,6 +30,13 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Debug build output
+        run: |
+          echo "Arquivos na raiz:"
+          ls -la
+          echo "Conteúdo de dist:"
+          ls -la dist || true
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
