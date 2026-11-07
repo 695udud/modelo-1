@@ -1,24 +1,94 @@
-# Modelo 1
+# Site Jurídico — Elegante Humanizado
 
-Implement exactly the screenshot and nothing else
+## 1. Sobre o projeto
 
-This project was built with [Lovable](https://lovable.dev).
+O modelo Elegante Humanizado foi desenvolvido para advogados que desejam transmitir profissionalismo, proximidade e acolhimento.
 
-## Build with Lovable
+Sua proposta visual utiliza cores naturais, fotografias profissionais e uma composição equilibrada para apresentar o advogado de maneira acessível e sofisticada.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/5422fd39-a36f-46b0-83eb-ddf0ba3e71b2).
+É um modelo indicado para profissionais que valorizam uma comunicação mais pessoal e próxima.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+## 2. Identidade visual
 
-## Development
+A identidade visual utiliza:
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+- Bege claro.
+- Verde-oliva.
+- Branco.
+- Marrom suave.
+- Tipografia serifada nos títulos.
+- Tipografia moderna nos textos.
+- Elementos visuais delicados.
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+## 3. Estrutura do site
+
+O projeto possui cinco seções:
+
+1. **Início:** apresentação do profissional com fotografia.
+2. **Sobre:** trajetória e informações profissionais.
+3. **Áreas de atuação:** apresentação das áreas jurídicas.
+4. **Contato:** telefone, WhatsApp, e-mail e endereço.
+5. **Rodapé:** informações institucionais.
+
+## 4. Personalização
+
+Os dados devem ser alterados pelo arquivo:
+
+`src/config/site.ts`
+
+Informações configuráveis:
+
+- Nome completo.
+- Nome do escritório.
+- OAB/UF.
+- Telefone.
+- WhatsApp.
+- E-mail.
+- Endereço.
+- Cidade e estado.
+- Biografia.
+- Áreas de atuação.
+- Fotografia profissional.
+- Logotipo.
+- Redes sociais.
+- Horários de atendimento.
+- SEO.
+- Cores da identidade visual.
+
+O arquivo deve funcionar como fonte única de dados para os componentes.
+
+## 5. Imagens
+
+Diretório:
+
+`public/images/`
+
+Arquivos recomendados:
+
+- `logo.png`
+- `advogado.jpg`
+- `escritorio.jpg`
+
+As fotografias devem ser fornecidas ou autorizadas pelo cliente.
+
+## 6. Tecnologias
+
+- React.
+- TypeScript.
+- Vite.
+- CSS.
+- Componentes reutilizáveis.
+
+## 7. Publicação
+
+O projeto pode ser publicado na Vercel ou Cloudflare Pages.
+
+Após a configuração do domínio, o escritório terá uma URL própria.
+
+## 8. Observações
+
+A comunicação deve ser profissional, informativa e verdadeira.
+
+Evitar linguagem sensacionalista, promessas de resultados ou qualquer informação que não tenha sido validada pelo advogado.
+
+**Objetivo do modelo:** transmitir proximidade e confiança através de uma identidade visual acolhedora e elegante.
