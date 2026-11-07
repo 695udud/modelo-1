@@ -32,15 +32,13 @@ jobs:
 
       - name: Debug build output
         run: |
-          echo "Arquivos na raiz:"
-          ls -la
-          echo "Conteúdo de dist:"
-          ls -la dist || true
+          echo "Conteúdo gerado:"
+          ls -la .output/public
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/
+          path: .output/public/
 
   deploy:
     needs: build
